@@ -1,0 +1,5 @@
+.vscode/
+Backend/.vscode/
+Backend/images/
+Backend/target/
+Frontend/venv/
