@@ -101,7 +101,7 @@ function takepicture() {
   }
 }
 // const backend_host = 'https://webapp-yukew.azurewebsites.net';
-backend_host = 'https://face-recog-backend.azurewebsites.net';
+const backend_host = '';
 function uploadImage(data) {
     fetch(backend_host + '/images', {
         method: 'POST',
