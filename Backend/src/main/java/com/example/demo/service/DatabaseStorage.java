@@ -15,7 +15,7 @@ public class DatabaseStorage{
     public int saveUser(User user) {
 
         return jdbcTemplate.update(
-                "insert into USERS (ID, Name, Email) values(?,?,?)",
+                "insert into USERS (ID, UserName, Email) values(?,?,?)",
                 user.getID(), user.getName(), user.getEmail());
 
     }
